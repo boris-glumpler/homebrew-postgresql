@@ -25,7 +25,7 @@ class PostgisAT16 < Formula
   depends_on "geos"
   depends_on "icu4c"
   depends_on "json-c" # for GeoJSON and raster handling
-  depends_on "ozeias/postgresql/postgresql@16"
+  depends_on "boris-glumpler/postgresql/postgresql@16"
   depends_on "pcre2"
   depends_on "proj"
   depends_on "protobuf-c" # for MVT (map vector tiles) support
