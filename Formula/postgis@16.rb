@@ -34,7 +34,7 @@ class PostgisAT16 < Formula
   fails_with gcc: "5" # C++17
 
   def postgresql
-    Formula["ozeias/postgresql/postgresql@16"]
+    Formula["boris-glumpler/postgresql/postgresql@16"]
   end
 
   def install
